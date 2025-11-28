@@ -6,24 +6,7 @@ export default function App() {
   const [navTabs, setNavTabs] = useState(["All", "Images", "Videos", "News", "Maps"]);
   const [activeTab, setActiveTab] = useState(0);
   
-  const [searchResults, setSearchResults] = useState([
-    {
-      id: 1,
-      favicon: "U",
-      domain: "Udemy",
-      url: "https://www.udemy.com › Product › ManagementClass",
-      title: "Top Product Management Courses - Enroll Now & Start Learning",
-      hasAd: true,
-      description: "The complete course to become a product manager, videos, activities, Interviews, & more. Learn product management best practices spanning development, lifecycle, strategy & more",
-      additionalInfo: "Full Lifetime Access · 13+ hours of videos · Bestseller course",
-      links: [
-        { title: "Browse Free Courses", subtitle: "Free courses to achieve your goals Learn new skills, on us" },
-        { title: "Online Courses", subtitle: "Learn Anything, On Your Schedule.- Browse Online Courses..." },
-        { title: "AI Courses", subtitle: "Master AI technology today Explore cutting-edge AI courses" },
-        { title: "ChatGPT Courses", subtitle: "Maximize productivity with ChatGPT Work smarter with ChatGPT today" },
-      ]
-    },
-    {
+ 
       id: 2,
       favicon: "P",
       domain: "pluralsight.com",
